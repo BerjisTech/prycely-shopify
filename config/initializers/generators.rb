@@ -1,0 +1,5 @@
+# Set rails ID generator to uuid
+
+Rails.application.config.generators do |g|
+  g.orm :active_record, primary_key_type: :uuid
+end
